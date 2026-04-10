@@ -33,7 +33,7 @@ This workflow is suitable for:
 ## Prerequisites
 
 To use this workflow, you need:
-- An active n8n instance (self-hosted or cloud)
+- An active [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi) (self-hosted or cloud)
 - A source system capable of sending inventory updates via webhook
 - SKU-based inventory management
 - Access to a secondary system API endpoint
@@ -43,7 +43,7 @@ To use this workflow, you need:
 
 ## How to Use & Setup
 
-1. Import the workflow JSON into your n8n instance.
+1. Import the workflow JSON into your n8n account.
 2. Copy the Webhook URL from the **Inventory Webhook** node.
 3. Configure your source system to send inventory updates to this Webhook URL.
 4. Review the **Normalize Inventory Data** node to ensure required fields are mapped correctly.
